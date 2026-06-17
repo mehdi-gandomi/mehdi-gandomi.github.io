@@ -1,7 +1,19 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      (function () {
+        var lang = localStorage.getItem('portfolio-lang');
+        if (lang === 'fa') {
+          document.documentElement.lang = 'fa';
+          document.documentElement.dir = 'rtl';
+        } else if (lang === 'en') {
+          document.documentElement.lang = 'en';
+          document.documentElement.dir = 'ltr';
+        }
+      })();
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mehdi Gandomi — Backend Developer</title>
@@ -9,8 +21,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/assets/index-BO8-SFlf.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BvMaHR7P.css">
+    <script type="module" crossorigin src="/assets/index-oKYXZY__.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-m8dAHCDF.css">
   </head>
   <body>
     <div id="root"></div>
