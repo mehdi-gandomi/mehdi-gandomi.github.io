@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#0a0a0a"/>
+  <rect x="40" y="40" width="720" height="420" rx="8" fill="#141414" stroke="#1e1e1e"/>
+  <rect x="60" y="70" width="300" height="200" rx="6" fill="#111" stroke="#1e1e1e"/>
+  <rect x="380" y="70" width="360" height="24" rx="4" fill="#1e1e1e"/>
+  <rect x="380" y="110" width="280" height="12" rx="2" fill="#1a1a1a"/>
+  <rect x="380" y="134" width="320" height="12" rx="2" fill="#1a1a1a"/>
+  <rect x="60" y="290" width="680" height="100" rx="6" fill="#111"/>
+  <text x="400" y="420" text-anchor="middle" fill="#4ade80" font-family="system-ui,sans-serif" font-size="28" font-weight="600">Evtech</text>
+</svg>
